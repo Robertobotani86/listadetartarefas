@@ -5,14 +5,7 @@ $email = $_GET["email"] ;
 $password = $_GET["password"];
 $name = $_GET["name"];
 $last_name = $_GET["last_name"];
-$full_name = '$name $last_name';    // string literal
 $full_name = "$name $last_name";   // string avaliada
-
-$int_value = 10 ;// int
-$float_value = 99.99; // float 
-var_dunp ($full_name);
-var_dunp ($int_value);
-var_dunp ($float_value);      
 
 ?>
 
